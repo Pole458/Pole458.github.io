@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!-- 
+⢀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⣠⣤⣶⣶
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⢰⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣀⣀⣾⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⡏⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿
+⣿⣿⣿⣿⣿⣿⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠁⠀⣿
+⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠙⠿⠿⠿⠻⠿⠿⠟⠿⠛⠉⠀⠀⠀⠀⠀⣸⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣴⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢰⣹⡆⠀⠀⠀⠀⠀⠀⣭⣷⠀⠀⠀⠸⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠈⠉⠀⠀⠤⠄⠀⠀⠀⠉⠁⠀⠀⠀⠀⢿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⢾⣿⣷⠀⠀⠀⠀⡠⠤⢄⠀⠀⠀⠠⣿⣿⣷⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡀⠉⠀⠀⠀⠀⠀⢄⠀⢀⠀⠀⠀⠀⠉⠉⠁⠀⠀⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿
+                - YOU FOUND ME! - 
+ -->
+
 <head>
 
   <!-- Basic Page Needs
@@ -75,8 +94,8 @@
 
           <ul class="nav navbar-nav navbar-right">
 
+            <li class="page-scroll"><a href="#portfolio">Works</a></li>
             <li class="page-scroll"><a href="#about">About me</a></li>
-            <li class="page-scroll"><a href="#portfolio">Creations</a></li>
             <li class="page-scroll"><a href="#contact">Contacts</a></li>
 
           </ul>
@@ -87,12 +106,100 @@
     </nav>
   </header>
 
-
   <main id="main" class="site-main">
 
-    <div class="parallax">
+    <div class="gif-parallax" style="background-image: 'assets/img/Avengers.gif';" background>
       <div id="pole" class="hero">
       </div>
+    </div>
+
+    <a class="anchor" id="portfolio" style="top: -50px;"></a>
+
+    <section class="site-section section-portfolio">
+      <div class="container">
+        <div class="text-center">
+          <h3>Works</h3>
+          <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+        </div>
+        <div class="row">
+
+          <!-- Disboard -->
+          <div class="col-md-4 col-xs-6">
+            <a href="#" data-toggle="modal" data-target="#portfolioItemDisboard">
+              <div class="portfolio-item">
+                <img src="assets/img/disboard_cover.png" class="img-res" alt="">
+                <div class="portfolio-item-info">
+                  <h4>Disboard</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- BoxBoxBox -->
+          <div class="col-md-4 col-xs-6">
+            <a href="#" data-toggle="modal" data-target="#portfolioItemBoxBoxBox">
+              <div class="portfolio-item">
+                <img src="assets/img/boxboxbox_cover.png" class="img-res" alt="">
+                <div class="portfolio-item-info">
+                  <h4>BoxBoxBox</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- LoR Wiki -->
+          <div class="col-md-4 col-xs-6">
+            <a href="#" data-toggle="modal" data-target="#portfolioItemLoRWiki">
+              <div class="portfolio-item">
+                <img src="assets/img/lorwiki_cover.png" class="img-res" alt="">
+                <div class="portfolio-item-info">
+                  <h4>LoR Wiki</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Pixel Art Camera -->
+          <div class="col-md-4 col-xs-6">
+            <a href="#" data-toggle="modal" data-target="#portfolioItemPixelArtCamera">
+              <div class="portfolio-item">
+                <img src="assets/img/pixelartcamera_cover.png" class="img-res" alt="">
+                <div class="portfolio-item-info">
+                  <h4>Pixel Art Camera</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Overheat -->
+          <div class="col-md-4 col-xs-6">
+            <a href="#" data-toggle="modal" data-target="#portfolioItemOverHeat">
+              <div class="portfolio-item">
+                <img src="assets/img/overheat_cover.png" class="img-res" alt="">
+                <div class="portfolio-item-info">
+                  <h4>OVERHEAT</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Bolganone -->
+          <div class="col-md-4 col-xs-6">
+            <a href="#" data-toggle="modal" data-target="#portfolioItemBolganone">
+              <div class="portfolio-item">
+                <img src="assets/img/bolganone_cover.png" class="img-res" alt="">
+                <div class="portfolio-item-info">
+                  <h4>Bolganone</h4>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="parallax">
     </div>
 
     <a class="anchor" id="about"></a>
@@ -122,149 +229,6 @@
     <div class="parallax">
     </div>
 
-    <a class="anchor" id="portfolio" style="top: -50px;"></a>
-
-    <section class="site-section section-portfolio">
-      <div class="container">
-        <div class="text-center">
-          <h3>Creations</h3>
-          <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-        </div>
-        <div class="row">
-
-          <!-- BQuiet -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/bquiet.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Bquiet</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://www.instagram.com/p/CKYutseASIt/?utm_source=ig_web_copy_link"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Overheat -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/overheat_cover.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>OVERHEAT</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://pole458.itch.io/overheat"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Disboard -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/disboard_cover.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Disboard</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://github.com/Pole458/Disboard"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Mihawk -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="http://img.youtube.com/vi/ljADWUi0vSI/maxresdefault.jpg" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Mihawk</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://youtu.be/ljADWUi0vSI"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-          
-          
-          <!-- BoxBoxBox -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/boxboxbox_cover.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>BoxBoxBox</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://pole458.itch.io/boxboxbox"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Bolganone -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/bolganone_cover.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Bolganone</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.g4m3s0n.pole.feh"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Outro -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="http://img.youtube.com/vi/4rUyRpmXYbM/maxresdefault.jpg" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Outro</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItemOutro"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://youtu.be/4rUyRpmXYbM"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Sonar -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/sonar_cover.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>Sonar</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItemSonar"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://pole458.itch.io/sonar"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- LoR Wiki -->
-          <div class="col-md-4 col-xs-6">
-            <div class="portfolio-item">
-              <img src="assets/img/lorwiki_cover.png" class="img-res" alt="">
-              <div class="portfolio-item-info">
-                <h4>LoR Wiki</h4>
-                <a href="#" data-toggle="modal" data-target="#portfolioItem9"><span
-                    class="glyphicon glyphicon-eye-open"></span></a>
-                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.pole.lorwiki"><span
-                    class="glyphicon glyphicon-link"></span></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="parallax">
-    </div>
-
     <a class="anchor" id="contact" style="top: -400px;"></a>
 
     <section class="site-section section-contacts text-center">
@@ -284,53 +248,45 @@
               class="fab fa-linkedin fa-2x"></i></a>
           <a href="https://github.com/Pole458" class="social-icon github-bg" target="_blank"><i
               class="fab fa-github fa-2x" aria-hidden="true"></i></a>
-          <a href="https://play.google.com/store/apps/developer?id=Pole458" class="social-icon google-play-bg"
-            target="_blank"><i class="fab fa-google-play fa-2x" aria-hidden="true"></i></a>
           <a href="https://pole458.itch.io/" class="social-icon itch-io-bg" target="_blank"><i
               class="fab fab fa-itch-io fa-2x" aria-hidden="true"></i></a>
-          <a href="https://www.youtube.com/channel/UCxYDAMPJw_8W6o-WOSB6L5g" class="social-icon youtube-bg"
-            target="_blank"><i class="fab fab fa-youtube fa-2x" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com/made_in_pole/" class="social-icon instgram-bg" target="_blank"><i
-              class="fab fab fa-instagram fa-2x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/Pole23316181" class="social-icon twitter-bg" target="_blank"><i
-                class="fab fab fa-twitter fa-2x" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/Pole458" class="social-icon twitter-bg" target="_blank"><i
+              class="fab fab fa-twitter fa-2x" aria-hidden="true"></i></a>
         </div>
     </section>
   </main>
 
   <!-- Modals -->
-  <div id="portfolioItem1" class="modal fade" role="dialog">
+
+  <!-- Pixel Art Camera -->
+  <div id="portfolioItemPixelArtCamera" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img src="http://img.youtube.com/vi/ljADWUi0vSI/maxresdefault.jpg" class="img-res" alt="">
-          <!-- <iframe
-                width="600"
-                height="340"
-                src="https://www.youtube.com/embed/ljADWUi0vSI?autoplay=1&mute=1"
-                frameborder="0"
-                allow="autoplay;"
-                allowfullscreen
-            ></iframe> -->
+          <img src="assets/img/pixelartcamera.png" class="img-res" alt="">
         </div>
         <div class="modal-body">
-          <h4 class="modal-title">Mihawk</h4>
-          <p style="white-space: pre-line;">A short video clip I directed, filmed and edited for BBoy
-            Mihawk.
+          <h4 class="modal-title">Pixel Art Camera</h4>
+          <p style="white-space: pre-line;">Pixel Art Camera is a simple Unity tool that can be used to render pixel art
+            with pixel perfect precision at any resolution.
 
-            I also modified the original song to better fit the video's length and pace.
+            Pixel Art Camera works by rendering the game at the target resolution and then upscale it by the biggest
+            possible integer factor.
+            This way, the pixel art will always remain pixel perfect with no artifacts.
 
-            Shot with a Nikon D7200 and edited with Premiere Pro.</p>
+            Pixel Art Camera is open source and is avaiable for free on the Unity Asset Store.
+          </p>
         </div>
         <div class="modal-footer">
-          <a href="https://youtu.be/ljADWUi0vSI" target="_blank" class="btn btn-fill">Watch Video</a>
+          <a href="http://u3d.as/2xP8" target="_blank" class="btn btn-fill">Unity Asset Store</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="portfolioItem2" class="modal fade" role="dialog">
+  <!-- BoxBoxBox -->
+  <div id="portfolioItemBoxBoxBox" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -339,16 +295,19 @@
         </div>
         <div class="modal-body">
           <h4 class="modal-title">BoxBoxBox</h4>
-          <p style="white-space: pre-line;">BoxBoxBox is a work-in-progress multiplayer party game that focuses on emergent-narrative.
+          <p style="white-space: pre-line;">BoxBoxBox is a work-in-progress multiplayer party game that focuses on
+            emergent-narrative.
 
-            Each player manages its own racing team, while the drivers, all controlled by a simple AI, pruduce each time a new realistic, exciting and unpredictable race.
+            Each player manages its own racing team, while the drivers, all controlled by a simple AI, pruduce each time
+            a new realistic, exciting and unpredictable race.
 
-            This AI exploits concepts like Steering Behaviours, Velocity Obstacle Avoidance and Swarm Intelligence to take efficient trajectories, overtake and avoid collisions while still remaining fairly simple.
+            This AI exploits concepts like Steering Behaviours, Velocity Obstacle Avoidance and Swarm Intelligence to
+            take efficient trajectories, overtake and avoid collisions while still remaining fairly simple.
 
-            Playing this game should fell like watching a real race, with the players rooting for their favourite teams and drivers.
+            Playing this game should fell like watching a real race, with the players rooting for their favourite teams
+            and drivers.
           </p>
         </div>
-        <!-- <iframe frameborder="0" src="https://itch.io/embed/795276" width="552" height="167"><a href="https://pole458.itch.io/boxboxbox">BoxBoxBox by Pole</a></iframe> -->
 
         <div class="modal-footer">
           <a href="https://pole458.itch.io/boxboxbox" target="_blank" class="btn btn-fill">Visit Page</a>
@@ -357,7 +316,8 @@
     </div>
   </div>
 
-  <div id="portfolioItem3" class="modal fade" role="dialog">
+  <!-- Disboard -->
+  <div id="portfolioItemDisboard" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -366,213 +326,100 @@
         </div>
         <div class="modal-body">
           <h4 class="modal-title">Disboard</h4>
-          <p style="white-space: pre-line;">Disboard is a C++ framework useful for studying and developing AIs for turn based games.
-            
+          <p style="white-space: pre-line;">Disboard is a C++ framework useful for studying and developing AIs for turn
+            based games.
+
             It is written with performance in mind and uses multithreading to further speed up the AIs.
 
-            It includes a simple game engine that can be expanded to implement any type of sequential turn based game and several AIs that can play these games.
+            It includes a simple game engine that can be expanded to implement any type of sequential turn based game
+            and several AIs that can play these games.
 
             This projects benefits from the HPC (High Performance Computing) facility of the University of Parma, Italy
           </p>
         </div>
         <div class="modal-footer">
-          <a href="https://github.com/Pole458/Disboard" target="_blank" class="btn btn-fill">Open on GitHub</a>
+          <a href="https://github.com/Pole458/Disboard" target="_blank" class="btn btn-fill">GitHub</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="portfolioItem4" class="modal fade" role="dialog">
+  <!-- Overheat -->
+  <div id="portfolioItemOverHeat" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img src="assets/img/bquiet.png" class="img-res" alt="">
-        </div>
-        <div class="modal-body">
-          <h4 class="modal-title">BQuiet</h4>
-          <p style="white-space: pre-line;">A short video clip I made with the duo of dancers Teo and Dre, a.k.a. the BQuiet.
-
-            I had the initial idea of the coreography, then they filled the gaps and polished it.
-
-            Shot, directed and edited by me.
-          </p>
-        </div>
-        <div class="modal-footer">
-          <a href="https://www.instagram.com/p/CKYutseASIt/?utm_source=ig_web_copy_link" target="_blank"
-            class="btn btn-fill">Watch Video</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="portfolioItemOutro" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-            <img class="img-res" src="http://img.youtube.com/vi/4rUyRpmXYbM/maxresdefault.jpg" alt="">
-         
-          </div>
-          <div class="modal-body">
-            <h4 class="modal-title">Outro</h4>
-            <p style="white-space: pre-line;">I was inspired by the ending credits of Avengers: The Age of Ultron and decided to reproduce it.
-                
-                I extracted the models from the game 'League of Legends', and imported them into Blender.
-                After a quick fix of some rigs, I started working on each pose, focusing on the interactions between characters and what story the sculpture would tell.  
-                
-                Once that everything was in place, I started studying the camera movements, trying to visualize the story and the interactions I 
-                previously worked on.
-                
-                Finally, I exported the final renders from Blender and mixed them with the music in Premiere Pro.</p>
-          </div>
-          <div class="modal-footer">
-            <a href="https://youtu.be/4rUyRpmXYbM" target="_blank" class="btn btn-fill">Watch Video</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  <!-- <div id="portfolioItem5" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/ctrlme_ctrlyou_cover.png" alt="">
-        </div>
-        <div class="modal-body">
-          <h4 class="modal-title">Ctrl+Me Ctrl+You</h4>
-          <p style="white-space: pre-line;">
-            Made in 48 hours during the GMTK 2020 Game Jam, 'Ctrl+Me Ctrl+You' is my first experience in a jam.
-
-            The game placed in the top 30% of the over 5000 games submitted, and was really appreciated for its originality.
-
-            The theme of the jam was 'Out of Control', so the game revolves around the concept of controlling different characters.
-
-            'Ctrl+Me Ctrl+You' is a puzzle game where you can control the body of your foes. But beware, they will controls yours!</p>
-        </div>
-        <div class="modal-footer">
-          <a href="https://pole458.itch.io/ctrlmectrlyou" target="_blank" class="btn btn-fill">Visit Page</a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  <div id="portfolioItem5" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/overheat_cover.png" alt="">
+          <img class="img-res" src="assets/img/overheat.gif" alt="">
         </div>
         <div class="modal-body">
           <h4 class="modal-title">OVERHEAT</h4>
           <p style="white-space: pre-line;">OVERHEAT is my entry for the Blackthornprod GAME JAM #3
 
-            The theme of the jam was 'Less is More', so the game gets more difficult by giving you less power ups every time you beat it.
+            The theme of the jam was 'Less is More', so the game gets more difficult by giving you less power ups every
+            time you beat it.
 
             Defeat the evil SteamBall, but pay attention not to OVERHEAT!
           </p>
         </div>
         <div class="modal-footer">
-          <a href="https://pole458.itch.io/overheat" target="_blank" class="btn btn-fill">Visit Page</a>
+          <a href="https://pole458.itch.io/overheat" target="_blank" class="btn btn-fill">Play</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="portfolioItem6" class="modal fade" role="dialog">
+  <!-- Bolganone -->
+  <div id="portfolioItemBolganone" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/bolganone_cover.png" alt="">
+          <img class="img-res" src="assets/img/bolganone.png" alt="">
         </div>
         <div class="modal-body">
           <h4 class="modal-title">Bolganone</h4>
-          <p style="white-space: pre-line;">Bolganone is a lightweight companion app for Fire Emblem Heroes, a popular gacha game for mobile platforms.
+          <p style="white-space: pre-line;">Bolganone is a lightweight companion app for Fire Emblem Heroes, a popular
+            gacha game for mobile platforms.
 
-            Thanks to its features and completeness, the app quickly overcame other competitors and became the most popular companion app for FEH on Android, reaching 12k users.
+            Thanks to its features and completeness, the app quickly overcame other competitors and became the most
+            popular companion app for FEH on Android, reaching 12k users.
 
-            The app contains useful features like a database with informations about collectible elements, a unit builder and a floating overlay to check your units without having to close the game.
+            The app contains useful features like a database with informations about collectible elements, a unit
+            builder and a floating overlay to check your units without having to close the game.
 
             Bolganone was also featured in different videos by PhonenixMaster1, a popular exponent of the community.</p>
         </div>
         <div class="modal-footer">
           <a href="https://play.google.com/store/apps/details?id=com.g4m3s0n.pole.feh" target="_blank"
-            class="btn btn-fill">Visit Page</a>
+            class="btn btn-fill">Play Store</a>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="portfolioItem7" class="modal fade" role="dialog">
+  <!-- LorWiki -->
+  <div id="portfolioItemLoRWiki" class="modal fade" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
           <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="http://img.youtube.com/vi/beo4_AXprw0/maxresdefault.jpg" alt="">
-          <!-- <iframe width="600" height="340"
-                src="https://www.youtube.com/embed/beo4_AXprw0"
-                frameborder="0"
-                allow="autoplay;"
-                allowfullscreen
-            ></iframe> -->
-        </div>
-        <div class="modal-body">
-          <h4 class="modal-title">LoL Cinematic #3</h4>
-          <p style="white-space: pre-line;">A short music video I made mixing different Riot's cinematic shorts.
-
-            I focused on the interactions between music and images, playing with melody, rythm and the pace of the track.</p>
-        </div>
-        <div class="modal-footer">
-          <a href="https://youtu.be/beo4_AXprw0" target="_blank" class="btn btn-fill">Visit Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="portfolioItemSonar" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/sonar_cover.png" alt="">
-        </div>
-        <div class="modal-body">
-          <h4 class="modal-title">Overheat</h4>
-          <p style="white-space: pre-line;">I gave myself a theme to follow and 48 hours to work on it. I chose the same theme used in the Global Game Jam of 2017: "waves".
-
-            In Sonar, you play as a blind bat that relies on its sonar to perceive the environment around itself.
-
-            The game revolves around the sonar mechanic, that allows the player to "see" the surrounding environment by standing still. However, every other element of the game forces the player to keep moving, thus generating an engaging and challenging gameplay.</p>
-        </div>
-        <div class="modal-footer">
-          <a href="https://pole458.itch.io/sonar" target="_blank" class="btn btn-fill">Visit Page</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="portfolioItem9" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/lorwiki_cover.png" alt="">
+          <img class="img-res" src="assets/img/lorwiki.png" alt="">
         </div>
         <div class="modal-body">
           <h4 class="modal-title">LoR Wiki</h4>
-          <p style="white-space: pre-line;">LoR Wiki was the first companion app for Legends of Runeterra that landed on Android.
+          <p style="white-space: pre-line;">LoR Wiki was the first companion app for Legends of Runeterra that landed on
+            Android.
 
             The app features a database with all the cards currently in the game, a deck builder and a match simulator.
 
             It was selected in the first stage of the Legends of Runeterra Developer Challenge held by Riot Games.
-            Unluckily, I had to retire my submission because the nation where I live (Italy) was excluded from the competition due to legal issues about the prize.</p>
+            Unluckily, I had to retire my submission because the nation where I live (Italy) was excluded from the
+            competition due to legal issues about the prize.</p>
         </div>
         <div class="modal-footer">
           <a href="https://play.google.com/store/apps/details?id=com.pole.lorwiki" target="_blank"
-            class="btn btn-fill">Visit Page</a>
+            class="btn btn-fill">Play Store</a>
         </div>
       </div>
     </div>
@@ -585,7 +432,8 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="assets/js/skrollr.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
   <script src="assets/js/jquery.countTo.min.js"></script>
   <script src="assets/js/script.js"></script>
 
