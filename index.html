@@ -108,9 +108,16 @@
 
   <main id="main" class="site-main">
 
-    <div class="gif-parallax" style="background-image: 'assets/img/Avengers.gif';" background>
-      <div id="pole" class="hero">
-      </div>
+    <!-- Background Parallax video -->
+    <video class="background-video" autoplay loop muted playsinline>
+      <source src="assets/img/Background 2.5.mp4" type="video/mp4">
+    </video>
+
+    <div id="pole" class="hero">
+    </div>
+
+    <div style="height: 100%;">
+
     </div>
 
     <a class="anchor" id="portfolio" style="top: -50px;"></a>
@@ -130,6 +137,7 @@
                 <img src="assets/img/disboard_cover.png" class="img-res" alt="">
                 <div class="portfolio-item-info">
                   <h4>Disboard</h4>
+                  <h5>Framework</h5>
                 </div>
               </div>
             </a>
@@ -142,6 +150,7 @@
                 <img src="assets/img/boxboxbox_cover.png" class="img-res" alt="">
                 <div class="portfolio-item-info">
                   <h4>BoxBoxBox</h4>
+                  <h5>Game</h5>
                 </div>
               </div>
             </a>
@@ -154,6 +163,7 @@
                 <img src="assets/img/lorwiki_cover.png" class="img-res" alt="">
                 <div class="portfolio-item-info">
                   <h4>LoR Wiki</h4>
+                  <h5>App</h5>
                 </div>
               </div>
             </a>
@@ -166,6 +176,7 @@
                 <img src="assets/img/pixelartcamera_cover.png" class="img-res" alt="">
                 <div class="portfolio-item-info">
                   <h4>Pixel Art Camera</h4>
+                  <h5>Tool</h5>
                 </div>
               </div>
             </a>
@@ -178,6 +189,7 @@
                 <img src="assets/img/overheat_cover.png" class="img-res" alt="">
                 <div class="portfolio-item-info">
                   <h4>OVERHEAT</h4>
+                  <h5>Game Jam</h5>
                 </div>
               </div>
             </a>
@@ -190,6 +202,7 @@
                 <img src="assets/img/bolganone_cover.png" class="img-res" alt="">
                 <div class="portfolio-item-info">
                   <h4>Bolganone</h4>
+                  <h5>App</h5>
                 </div>
               </div>
             </a>
@@ -268,13 +281,17 @@
         </div>
         <div class="modal-body">
           <h4 class="modal-title">Pixel Art Camera</h4>
-          <p style="white-space: pre-line;">Pixel Art Camera is a simple Unity tool that can be used to render pixel art
-            with pixel perfect precision at any resolution.
-
-            Pixel Art Camera works by rendering the game at the target resolution and then upscale it by the biggest
+          <p>
+            Pixel Art Camera is a simple tool for Unity that can be used to achieve pixel perfect graphics at any
+            resolution.
+            <br>
+            <br>
+            It works by rendering the game at the target resolution and then upscale it to the biggest
             possible integer factor.
+            <br>
             This way, the pixel art will always remain pixel perfect with no artifacts.
-
+            <br>
+            <br>
             Pixel Art Camera is open source and is avaiable for free on the Unity Asset Store.
           </p>
         </div>
@@ -291,26 +308,26 @@
       <div class="modal-content">
         <div class="modal-header">
           <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
-          <img class="img-res" src="assets/img/boxboxbox_cover.png" alt="">
+          <img class="img-res" src="assets/img/boxboxbox.gif" alt="">
         </div>
         <div class="modal-body">
           <h4 class="modal-title">BoxBoxBox</h4>
-          <p style="white-space: pre-line;">BoxBoxBox is a work-in-progress multiplayer party game that focuses on
-            emergent-narrative.
-
-            Each player manages its own racing team, while the drivers, all controlled by a simple AI, pruduce each time
-            a new realistic, exciting and unpredictable race.
-
-            This AI exploits concepts like Steering Behaviours, Velocity Obstacle Avoidance and Swarm Intelligence to
-            take efficient trajectories, overtake and avoid collisions while still remaining fairly simple.
-
-            Playing this game should fell like watching a real race, with the players rooting for their favourite teams
-            and drivers.
+          <p>
+            BoxBoxBox is a work-in-progress motorsport management game that focuses on emergent-narrative.
+            <br>
+            <br>
+            The game features an accurate physics simulation of how real vehicles works, while the driving AI is based
+            on context steering behaviours and can be fine-tuned in order to simulate
+            different types of drivers and racing styles.
+            <br>
+            <br>
+            Thanks to its smart AI and a rich cast of drivers with different skills and abilities, the game can
+            endlessly generate engaging and unpredictable races.
           </p>
         </div>
 
         <div class="modal-footer">
-          <a href="https://pole458.itch.io/boxboxbox" target="_blank" class="btn btn-fill">Visit Page</a>
+          <a href="https://pole458.itch.io/boxboxbox" target="_blank" class="btn btn-fill">Itch.io</a>
         </div>
       </div>
     </div>
@@ -321,20 +338,26 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+          <a class="close" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span>
+          </a>
           <img class="img-res" src="assets/img/disboard_cover.png" alt="">
         </div>
         <div class="modal-body">
           <h4 class="modal-title">Disboard</h4>
-          <p style="white-space: pre-line;">Disboard is a C++ framework useful for studying and developing AIs for turn
-            based games.
-
-            It is written with performance in mind and uses multithreading to further speed up the AIs.
-
-            It includes a simple game engine that can be expanded to implement any type of sequential turn based game
-            and several AIs that can play these games.
-
-            This projects benefits from the HPC (High Performance Computing) facility of the University of Parma, Italy
+          <p>
+            Disboard is a C++ framework useful for studying and developing AIs for turn based games.
+            <br>
+            <br>
+            It includes a basic game engine that can be expanded to implement any type of sequential turn based
+            game.
+            It also features different AIs that can play any game made with Disboard.
+            <br>
+            <br>
+            Disboard is currently being ported to Unreal Engine.
+            <br>
+            <br>
+            This projects benefits from the HPC (High Performance Computing) facility of the University of Parma, Italy.
           </p>
         </div>
         <div class="modal-footer">
@@ -354,12 +377,16 @@
         </div>
         <div class="modal-body">
           <h4 class="modal-title">OVERHEAT</h4>
-          <p style="white-space: pre-line;">OVERHEAT is my entry for the Blackthornprod GAME JAM #3
-
+          <p>
+            OVERHEAT was my entry for the Blackthornprod GAME JAM #3, a one-week Game Jam with over one thousand
+            entries.
+            <br>
+            <br>
             The theme of the jam was 'Less is More', so the game gets more difficult by giving you less power ups every
             time you beat it.
-
-            Defeat the evil SteamBall, but pay attention not to OVERHEAT!
+            <br>
+            <br>
+            The game finished in the top 20% of the entries despite being made only in the last three days of the jam.
           </p>
         </div>
         <div class="modal-footer">
@@ -379,16 +406,17 @@
         </div>
         <div class="modal-body">
           <h4 class="modal-title">Bolganone</h4>
-          <p style="white-space: pre-line;">Bolganone is a lightweight companion app for Fire Emblem Heroes, a popular
+          <p>
+            Bolganone is a companion app for Fire Emblem Heroes, a popular
             gacha game for mobile platforms.
-
-            Thanks to its features and completeness, the app quickly overcame other competitors and became the most
-            popular companion app for FEH on Android, reaching 12k users.
-
-            The app contains useful features like a database with informations about collectible elements, a unit
-            builder and a floating overlay to check your units without having to close the game.
-
-            Bolganone was also featured in different videos by PhonenixMaster1, a popular exponent of the community.</p>
+            <br>
+            <br>
+            Thanks to its features and completeness, the app quickly surpassed other competitors and became the most
+            popular FEH companion app on Android, reaching 12k users and a rating of 4.8 stars.
+            <br>
+            <br>
+            Bolganone was also featured in different videos by a popular content creator of the community.
+          </p>
         </div>
         <div class="modal-footer">
           <a href="https://play.google.com/store/apps/details?id=com.g4m3s0n.pole.feh" target="_blank"
@@ -408,14 +436,17 @@
         </div>
         <div class="modal-body">
           <h4 class="modal-title">LoR Wiki</h4>
-          <p style="white-space: pre-line;">LoR Wiki was the first companion app for Legends of Runeterra that landed on
-            Android.
-
-            The app features a database with all the cards currently in the game, a deck builder and a match simulator.
-
-            It was selected in the first stage of the Legends of Runeterra Developer Challenge held by Riot Games.
-            Unluckily, I had to retire my submission because the nation where I live (Italy) was excluded from the
-            competition due to legal issues about the prize.</p>
+          <p>
+            LoR Wiki was the first companion app for Legends of Runeterra to land on Android.
+            It has over 5k downloads and a 4+ stars rating.
+            <br>
+            <br>
+            The app features a database with all the cards currently avaiable in the game, a deck builder and a match
+            simulator.
+            <br>
+            <br>
+            Lor Wiki was selected for the Legends of Runeterra Developer Challenge held by Riot Games.
+          </p>
         </div>
         <div class="modal-footer">
           <a href="https://play.google.com/store/apps/details?id=com.pole.lorwiki" target="_blank"
@@ -434,7 +465,6 @@
   <script src="assets/js/skrollr.min.js"></script>
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
-  <script src="assets/js/jquery.countTo.min.js"></script>
   <script src="assets/js/script.js"></script>
 
 </body>
