@@ -230,6 +230,8 @@ html, body {
     object-fit: cover;
 }
 
+
+
 .parallax {
     /* The image used */
     background-image: url("../img/background_picture.jpg");
@@ -468,6 +470,7 @@ html, body {
 .modal-header .close {
     position: absolute;
     right: 0;
+    z-index: 1;
     padding: 10px 11px;
     margin-top: 0;
     background-color: #fff;
