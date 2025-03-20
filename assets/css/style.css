@@ -73,7 +73,7 @@ h4 {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 8px;
     transition: box-shadow 0.25s ease-in-out;
     -moz-transition: box-shadow 0.25s ease-in-out;
     -webkit-transition: box-shadow 0.25s ease-in-out;
@@ -374,7 +374,7 @@ html, body {
 }
 
 .modal-content {
-    border-radius: 0;
+    border-radius: 8px;
     box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -382,6 +382,10 @@ html, body {
     position: relative;
     padding: 0;
     height: 340px;
+}
+
+.modal-header img, .top-borders {
+    border-radius: 8px 8px 0 0;
 }
 
 .modal-header .close {
@@ -393,8 +397,9 @@ html, body {
     background-color: #fff;
     font-size: 16px;
     color: #212121;
-    border-left: 1px solid #212121;
-    border-bottom: 1px solid #212121;
+    /* border-left: 1px solid #212121; */
+    /* border-bottom: 1px solid #212121; */
+    border-radius: 8px;
     opacity: 1;
     transition: box-shadow 0.25s ease-in-out;
     -moz-transition: box-shadow 0.25s ease-in-out;
