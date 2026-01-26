@@ -280,6 +280,14 @@ html, body {
     flex-wrap: wrap;
 }
 
+.portfolio-items hr {
+  width: 100%;
+  flex-basis: 100%;
+  height: 0;
+  margin: 0;
+  border: 0;
+}
+
 .portfolio-items > a {
     padding: 16px 16px;
     flex-grow: 1;
